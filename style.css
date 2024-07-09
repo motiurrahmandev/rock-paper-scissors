@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: bisque;
+  text-align: center;
+}
+
+h1{
+  background-color: rgb(161, 104, 211) ;
+  color:white;
+}
+
+.game-container {
+  text-align: center;
+  margin: 30px;
+}
+
+.game-container img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin: 0px 40px;
+  cursor: pointer;
+}
+
+.game-container img:hover{
+  border: 3px solid black;
+
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 50px auto;
+}
+
+.count p {
+  font-size: 2rem;
+}
+
+.msg-btn {
+  border: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
